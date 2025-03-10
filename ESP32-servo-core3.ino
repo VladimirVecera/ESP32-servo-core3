@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "MyServo.h"
+#include <ServoESP32.h>
 
 MyServo servo;
 unsigned long lastSwitch = 0;
