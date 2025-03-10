@@ -1,5 +1,5 @@
-#ifndef MY_SERVO_H
-#define MY_SERVO_H
+#ifndef MY_SERVO_ESP32_H
+#define MY_SERVO_ESP32_H
 
 #include <Arduino.h>
 #include "driver/ledc.h"
@@ -41,4 +41,4 @@ private:
   unsigned long _lastUpdate; // čas poslední aktualizace
 };
 
-#endif // MY_SERVO_H
+#endif // MY_SERVO_ESP32_H
