@@ -1,4 +1,4 @@
-#include "MyServo.h"
+#include "ServoESP32.h"
 
 MyServo::MyServo() : _pin(-1), _channel(-1), _timer(-1), _mode(LEDC_LOW_SPEED_MODE),
                      _frequency(50), _resolution(LEDC_TIMER_16_BIT), _maxDuty(0),
